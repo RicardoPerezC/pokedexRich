@@ -1,0 +1,249 @@
+.fondo {
+    position: relative;
+    /*border: 1px solid black;*/
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+    background-color: white;
+}
+.caratula {
+    position:absolute;
+    left: 10%;
+    top: 45px;
+    height: 300px;
+    width: 500px;
+    border: 4px solid black;
+    background-color: #ce5117;
+    border-radius: 15px;
+    z-index: -2;
+}
+.pantalla1 {
+    position: absolute;
+    left: 12%;
+    top: 65px;
+    right: 12%;
+    bottom: 15%;
+    height: 250px;
+    width: 450px;
+    border-radius: 25px;
+    background: white;
+    z-index: -1;
+}
+.soporte {
+    position: absolute;
+    left: 10%;
+    top: 355px;
+    height: 30px;
+    width: 500px;
+    border-radius: 40px;
+    border: 8px solid black;
+    background-color: #7c7b7b;
+    z-index: -1;
+}
+.base {
+    position:absolute;
+    left: 10%;
+    top: 403px;
+    height: 300px;
+    width: 500px;
+    border: 4px solid black;
+    background-color: #ce5117;
+    border-radius: 15px;
+    z-index: -2;
+}
+.pantalla2 {
+    position: absolute;
+    left: 17%;
+    top: 430px;
+    right: 12%;
+    bottom: 15%;
+    height: 250px;
+    width: 300px;
+    border-radius: 25px;
+    background: white;
+    z-index: -1;
+}
+.boton-pad-up {
+    position: relative;
+    height: 40px;
+    width: 30px;
+    top: 590px;
+    left: 187px;
+    background-color: black;
+    font-size: 28px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: -1;
+}
+.boton-pad-down {
+    position: absolute;
+    top: 630px;
+    left: 187px;
+    height: 35px;
+    width: 30px;
+    background-color: black;
+    font-size: 28px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: -1;
+}
+.boton-pad-left {
+    position: absolute;
+    top: 618px;
+    left: 163px;
+    height: 25px;
+    width: 30px;
+    background-color: black;
+    font-size: 28px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: -1;
+}
+.boton-pad-right {
+    position: absolute;
+    top: 618px;
+    left: 210px;
+    height: 25px;
+    width: 30px;
+    background-color: black;
+    font-size: 28px;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: -1;
+}
+.circulo-pad {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 480px;
+    left: 180px;
+    border-radius: 50%;
+    background-color: #ccc7c7;
+    z-index: -1;
+}
+.boton-a {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 540px;
+    left: 590px;
+    border-radius: 50%;
+    background-color: #7c7b7b;
+    border: 8px solid black;
+    z-index: -1;
+}
+.boton-b {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 580px;
+    left: 590px;
+    border-radius: 50%;
+    background-color: #7c7b7b;
+    border: 8px solid black;
+    z-index: -1;
+}
+.boton-c {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 560px;
+    left: 560px;
+    border-radius: 50%;
+    background-color: #7c7b7b;
+    border: 8px solid black;
+    z-index: -1;
+}
+.boton-d {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 560px;
+    left: 620px;
+    border-radius: 50%;
+    background-color: #7c7b7b;
+    border: 8px solid black;
+    z-index: -1;
+}
+.boton-pause {
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    top: 630px;
+    left: 570px;
+    border-radius: 50%;
+    background-color: black;
+    border: 5px solid black;
+    z-index: -1;
+}
+.boton-start {
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    top: 650px;
+    left: 570px;
+    border-radius: 50%;
+    background-color: black;
+    border: 5px solid black;
+    z-index: -1;
+}
+.logos {
+    position: absolute;
+    top: 5px;
+    left: 8%;
+    z-index: 0;
+}
+.nintendo {
+    position: absolute;
+    top: 283px;
+    left: 23%;
+    height: 100px;
+    z-index: 0;
+}
+.autor {
+    position: absolute;
+    top: 710px;
+    left: 20%;
+    z-index: 1;
+}
+.autor p {
+    font-size: 12px;
+    font-weight: bold;
+}
+.buscarPokemon {
+    position: absolute;
+    top: 300px;
+    left: 15%;
+    z-index: 0;
+}
+.NombrePrincipal {
+    /*background-color: #3CBC8D;
+    color: white;*/
+    font-size: 16px;
+    font-weight: bold;
+    border: 0px;
+    text-align: center;
+    width: 150px;
+}
+.datosPantalla2 {
+    position: absolute;
+    left: 20%;
+    top: 460px;
+    right: 12%;
+    bottom: 15%;
+    height: 160px;
+    width: 240px;
+    background: white;
+}
+.datostexto {
+    font-size: 14px;
+    font-weight: bold;
+    border: 0px;
+    text-align: left;
+    padding: 5px;
+}
